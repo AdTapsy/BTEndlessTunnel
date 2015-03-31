@@ -15,6 +15,7 @@
 #import <UIKit/UIKit.h>
 
 #import "cocos2d.h"
+#import "AdTapsy.h"
 
 #define APP_ID 864587748 //id from iTunesConnect
 
@@ -201,6 +202,10 @@ void PlayGameSingleton::initAd()
 void PlayGameSingleton::showAd()
 {
     [adMobBannerView show];
+    
+    // Show interstitial ad from AdTapsy
+    UIViewController * viewController = [[[[UIApplication sharedApplication] delegate] window] rootViewController];
+    [AdTapsy showInterstitial: viewController];
 }
 
 void PlayGameSingleton::hideAd()

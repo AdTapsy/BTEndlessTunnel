@@ -17,6 +17,9 @@
 #import "RootViewController.h"
 #import "GCHelper.h"
 
+#include "NativeUtils.h"
+
+
 #import <FacebookSDK/FacebookSDK.h>
 
 @implementation AppController
@@ -89,6 +92,9 @@ static AppDelegate s_sharedApplication;
      Restart any tasks that were paused (or not yet started) while the application was inactive. If the application was previously in the background, optionally refresh the user interface.
      */
     cocos2d::CCDirector::sharedDirector()->resume();
+    
+    // Show ad when app become active from AdTapsy
+    NativeUtils::showAd();
 }
 
 - (void)applicationDidEnterBackground:(UIApplication *)application {

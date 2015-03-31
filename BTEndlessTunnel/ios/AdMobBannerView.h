@@ -7,7 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <GADBannerView.h>
+#import <GoogleMobileAds/GADBannerView.h>
 
 @interface AdMobBannerView : UIViewController
 {
