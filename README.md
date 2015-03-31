@@ -5,9 +5,9 @@ AdTapsy is Interstitial Mobile Ad Network Mediation (Integrate AdMob, Chartboost
 http://www.adtapsy.com/
 
 Thanks to cpinan for the great game.
--------
 
 Turbo Race Source Code.
+--
 
 Mit License - http://opensource.org/
 
