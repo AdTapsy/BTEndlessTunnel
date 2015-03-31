@@ -2,6 +2,11 @@ AdTapsy iOS Cocos2d-X SDK demo integration in BTEndlessTunnel by cpinan
 --
 Thanks to cpinan for the great game.
 
+AdTapsy interstitials integrated on:
+- Game over
+- Returning to home menu
+- Returning to app from background
+
 For Latest SDK integration Guide open https://app.adtapsy.com/app/integration
 
 App Monetization. Maximized. 7 highest paying ad networks in single SDK (Admob, Inmobi, Charboost, Revmob, Applovin, Vungle and AdColony)
