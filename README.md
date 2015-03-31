@@ -1,3 +1,12 @@
+AdTapsy iOS Cocos2d-X SDK demo integration in BTEndlessTunnel by cpinan
+
+AdTapsy is Interstitial Mobile Ad Network Mediation (Integrate AdMob, Chartboost, AppLovin, InMobi, AdColony, Vungle, RevMob)
+
+http://www.adtapsy.com/
+
+Thanks to cpinan for the great game.
+-------
+
 Turbo Race Source Code.
 
 Mit License - http://opensource.org/
